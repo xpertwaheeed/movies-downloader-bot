@@ -8,8 +8,8 @@ from telegram.ext import CommandHandler, MessageHandler, Filters, CallbackQueryH
 from movies_scraper import search_movies, get_movie
 
 
-TOKEN = os.getenv("TOKEN")
-URL = os.getenv("URL")
+TOKEN = os.getenv("7159473121:AAFhV-um-n7zjyICxNss0xqXys9SXAA-dDQ")
+URL = os.getenv("https://teraboxdb-17058399ed64.herokuapp.com/")
 bot = Bot(TOKEN)
 
 
